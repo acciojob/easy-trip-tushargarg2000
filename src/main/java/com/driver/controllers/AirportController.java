@@ -86,6 +86,7 @@ public class AirportController {
         //This includes both the people who have come for a flight and who have landed on an airport after their flight
 
 
+
         Airport airport = airportDb.get(airportName);
         if(Objects.isNull(airport)){
             return 0;
